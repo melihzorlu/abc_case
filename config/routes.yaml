@@ -1,0 +1,15 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+app_get_orders:
+  path: /api/order/getOrders
+  controller: App\Controller\OrderController::getOrders
+
+app_get_order:
+  path: /api/order/getOrder
+  controller: App\Controller\OrderController::getOrder
+
+api_login_check:
+  path: /api/login_check
+
